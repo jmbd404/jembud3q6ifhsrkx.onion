@@ -11,7 +11,7 @@ var TextScramble = function () {
     _classCallCheck(this, TextScramble);
 
     this.el = el;
-    this.chars = '!<>-_\\/[]{}—=+*^?#________';
+    this.chars = '!QAZWSXEDCRFVTGBYHNUJMIKLPOplokmijnuhbygvtfcrdxeszwaq`1234567890-=~!@#$%^&*()_+|}{[]\;.,/??<>-_\\/[]{}—=+*^?#________';
     this.update = this.update.bind(this);
   }
 
@@ -86,7 +86,7 @@ var TextScramble = function () {
 // Example
 // ——————————————————————————————————————————————————
 
-var phrases = ['Neo,', 'sooner or later', 'you\'re going to realize', 'just as I did', 'that there\'s a difference', 'between knowing the path', 'and walking the path'];
+var phrases = ['Welcome', 'in', 'jmbd404'];
 
 var el = document.querySelector('.text');
 var fx = new TextScramble(el);
